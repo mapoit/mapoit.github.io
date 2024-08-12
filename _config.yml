@@ -20,12 +20,12 @@ author: 마포전산
 # --- List of links in the navigation bar --- #
 ###############################################
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  #navbar-links:
+  #  About Me: "aboutme"
+  #Resources:
+  #- Beautiful Jekyll: "https://beautifuljekyll.com"
+      #  - Learn markdown: "https://www.markdowntutorial.com/"
+      #Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -41,6 +41,7 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 #title-img: /path/to/image
+
 
 
 #####################################
@@ -101,7 +102,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -233,16 +234,16 @@ footer-hover-col: "#0085A1"
 # (2) Install the giscus app in your repository (details at https://giscus.app),
 # (3) Fill in *all* the parameters below 
 # See more details about giscus and each of the following parameters at https://giscus.app
-#giscus:
-#  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  repository-id: # ID of your repository, retrieve this info from https://giscus.app
-#  category: Announcements # Category name of your GitHub Discussion posts
-#  category-id: # ID of your category, retrieve this info from https://giscus.app
-#  mapping: pathname
-#  reactions-enabled: 1
-#  emit-metadata: 0
-#  theme: light
+giscus:
+  hostname: giscus.app # Replace with your giscus instance's hostname if self-hosting
+  repository: mapoit/mapoit.github.io
+  repository-id: R_kgDOMUADSw
+  category: Announcements # Category name of your GitHub Discussion posts
+  category-id: DIC_kwDOMUADS84ChkAM
+  mapping: pathname
+  reactions-enabled: 1
+  emit-metadata: 0
+  theme: light
 
 ################
 # --- Misc --- #
